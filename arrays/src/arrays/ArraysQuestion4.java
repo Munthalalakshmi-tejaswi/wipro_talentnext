@@ -1,0 +1,26 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class ArraysQuestion4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter n values");
+		int n = sc.nextInt();
+		System.out.println("Enter arr values");
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = sc.nextInt();
+		}
+       for(int a:arr) {
+    	   if(a>=0&&a<127) {
+    	   System.out.println((char)a);
+    	   }else {
+    		   System.out.println("Invalid");
+    	   }
+       }
+      
+	}
+
+}
