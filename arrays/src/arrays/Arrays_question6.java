@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class ArraysQuestion6 {
+public class Arrays_question6 {
     public static void Printarr(int[] arr) {
     	int evennum=0;
     	int oddnum=arr.length-1;

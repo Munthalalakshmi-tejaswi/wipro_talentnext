@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class ArraysQuestion7 {
+public class Arrays_question7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

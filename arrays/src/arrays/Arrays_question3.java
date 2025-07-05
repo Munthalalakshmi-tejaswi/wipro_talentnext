@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.*;
 
-public class ArraysQuestion3 {
+public class Arrays_question3 {
 	public static int Search(int[] arr, int target) {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == target) {
